@@ -1,4 +1,6 @@
-# Lessons Learned from Snakes
+# Lessons Learned from Snakes 🐍
+
+https://ethyl2.github.io/snake-lessons/
 
 The content is from a talk that I gave in my local congregation's Sunday meeting on 30 May 2021.
 
