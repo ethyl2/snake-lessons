@@ -8,9 +8,25 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <title>Lessons From Snakes</title>
-        <meta name="description" content="">
+        <meta name="description" content="Talk Given on 30 May 2021">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="">
+        <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
+        <link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
+        <link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
+        <link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
+        <link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
+        <link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
+        <link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
+        <link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
+        <link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
+        <link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+        <link rel="manifest" href="/manifest.json">
+        <meta name="msapplication-TileColor" content="#ffffff">
+        <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+        <meta name="theme-color" content="#ffffff">
         <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700;800&display=swap" rel="stylesheet">
@@ -63,20 +79,27 @@
             </section>
             <section class="py-4">
                 <h2 class="text-green-600 text-4xl pb-4 font-extrabold">Quiz Prep</h2>
-                <p class="leading-relaxed">Just for fun, I made a little quiz. So pay attention as you read! 😀 See the quiz at the end.</p>
+                <p class="leading-relaxed">Just for fun, I made a little quiz. So pay attention as you read! 😀 See the quiz at the <a class="underline hover:text-green-600 font-bold" href="#quiz-section">end</a>.</p>
             </section>
             <section class="py-4">
                 <h2 class="text-green-600 text-4xl pb-4 font-extrabold">Meet Stripe</h2>
                 <p class="leading-loose">Our snake's name is Stripe, well, his full name is <strong>Cleo the Stripe Nuffer</strong>, but only I call him that. 
-                    He is an albino cornsnake and is a super peaceful, easy-to-care-for-pet. He even has a theme song. You can ask my kids to sing it to you sometime! 
+                    He is an <a class="font-bold underline hover:text-green-600" href="https://www.everythingreptiles.com/albino-corn-snake/" target="_blank">albino cornsnake</a> and is a super peaceful, easy-to-care-for-pet. He even has a theme song. You can ask my kids to sing it to you sometime! 
                     We got Stripe when my son was in 3rd grade and needed a subject for a school project.
                      We went to the pet store, thinking we'd get a pet, and came out with a snake. I never thought I would own a snake, 
                      but life leads you down unexpected paths sometimes. So Stripe's about 10 years old now. He is a very good snake and has never bitten anyone, 
-                     thank goodness. He also is an escape artist. More about that later.</p>
+                     thank goodness. He also is an escape artist. More about that later.
+                </p>
+                <img 
+                    class="rounded my-4 sm:w-1/2 mx-auto"
+                    src="images\cleo_the_stripe_nuffer.jpg" 
+                    alt="Cleo the Stripe Nuffer"
+                />
+
             </section>
             <section class="py-4">
                 <h2 class="text-green-600 text-4xl pb-4 font-extrabold">Escape Artists</h2>
-                <p class="leading-loose mb-4">First, I'd like to tell you about another snake, <strong>Herman</strong>. President Monson's youngest son Clark loved animals. One day he came home from Provo Canyon with a water snake. He named the snake Herman and promptly lost him. His mom found him in a silverware drawer. I bet she was thrilled!</p>
+                <p class="leading-loose mb-4">First, I'd like to tell you about another snake, <strong>Herman</strong>.<a class="hover:text-green-600" href="#source-1"><sup>1</sup></a> President Monson's youngest son Clark loved animals. One day he came home from Provo Canyon with a water snake. He named the snake Herman and promptly lost him. His mom found him in a silverware drawer. I bet she was thrilled!</p>
                 <p class="leading-loose mb-4">
                     So Clark decided to keep Herman in a bathtub. He put water in the tub and made a sign to put on the tub: "Don't use this tub. It belongs to Herman." So the family obeyed the sign and used the other bathroom in their house.
                 </p>
@@ -90,34 +113,53 @@
             <section class="py-4">
                 <h2 class="text-green-600 text-4xl pb-4 font-extrabold">Keep Calm and Be Patient</h2>
                 <p class="leading-loose mb-4">Telling about this in a conference talk, President Monson said that from this experience, he learned a lesson in <strong>patience</strong> and <strong>calmness</strong>.</p>
-                <p class="leading-loose mb-4">
-                    Our snake has also taught us about patience. He's managed to escape from us a few times, and it's been interesting to see where he ends up. Once he was tangled up in some blinds, once he was coiled around a walking stick in our computer room, another time he was hiding behind the TV. One time we really thought we had lost him for good.  We were getting ready to go on vacation the next day when we put him in his feeding container to give him a meal - a nice little frozen mouse - before we left. And then we finished packing and forgot about him. He got out and was gone. So we had to tell the person who was taking care of our pets while we were gone, that sorry, there's a snake loose in our house.
+                <div class="flex flex-col sm:flex-row">
+                    <div>
+                        <p class="leading-loose mb-4">
+                            Our snake has also taught us about patience. He's managed to escape from us a few times, and it's been interesting to see where he ends up. Once he was tangled up in some blinds, once he was coiled around a walking stick in our computer room, another time he was hiding behind the TV. One time we really thought we had lost him for good.  We were getting ready to go on vacation the next day when we put him in his feeding container to give him a meal - a nice little frozen mouse - before we left. And then we finished packing and forgot about him. He got out and was gone. So we had to tell the person who was taking care of our pets while we were gone, that sorry, there's a snake loose in our house.
+                        </p>
+                        <p class="leading-loose mb-4">It must have been about 2 months later when I came down to the kitchen one morning and up high, above the upper cabinets, was a piece of snake skin. We climbed up on the counter and, lo and behold, there was Stripe, on top of the cabinets, still alive. We took him down and gave him some wate,r and he drank for a very long time. He was one thirsty snake!</p>
+                    </div>
+                    <img 
+                        class="rounded my-4 sm:w-1/3 mx-auto sm:ml-6"
+                        src="images\thristy_stripe.jpg" 
+                        alt="Cleo the Stripe Nuffer is very thirsty"
+                    />
+                </div>
+                <p class="leading-loose mb-4">The scriptures have many examples of people who had patience and had to deal with all sorts of things even more hard to deal with than the loss of a snake. One such person was <a class="font-bold underline hover:text-green-600" href="https://bookofmormononline.com/1412/alma-the-younger-in-the-book-of-mormon" target="_blank">Alma</a>'s son Shiblon, during his mission.
                 </p>
-                <p class="leading-loose mb-4">It must have been about 2 months later when I came down to the kitchen one morning and up high, above the upper cabinets, was a piece of snake skin. We climbed up on the counter and, lo and behold, there was Stripe, on top of the cabinets, still alive. We took him down and gave him some wate,r and he drank for a very long time. He was one thirsty snake!</p>
-                <p class="leading-loose mb-4">The scriptures have many examples of people who had patience and had to deal with all sorts of things even more hard to deal with than the loss of a snake. One such person was Alma's son Shiblon, during his mission.
-                </p>
-                <p class="leading-loose mb-4">Alma told his son Shiblon:
+                <p class="leading-loose mb-4">Alma told his son:
                 </p>
                 <blockquote cite="https://abn.churchofjesuschrist.org/study/scriptures/bofm/alma/38" class="leading-loose mb-4 pl-6">
                     "For I know that thou wast in bonds; yea, and I also know that thou wast stoned for the word’s sake; and thou didst bear all these things with patience because the Lord was with thee; and now thou knowest that the Lord did deliver thee.
                 </blockquote>
                 <blockquote cite="https://abn.churchofjesuschrist.org/study/scriptures/bofm/alma/38" class="leading-loose mb-4 pl-6">
                     "And now my son, Shiblon, I would that ye should remember, that as much as ye shall put your trust in God even so much ye shall be delivered out of your trials, and your troubles, and your afflictions, and ye shall be lifted up at the last day."
+                    <a class="hover:text-green-600" href="#source-2"><sup>2</sup></a>
                 </blockquote>
             </section>
             <section class="py-4">
                 <h2 class="text-green-600 text-4xl pb-4 font-extrabold">Mean Snakes</h2>
-                <p class="leading-loose mb-4">Sometimes, you have to be careful around snakes. Not all snakes are as friendly as Stripe.
-                    Once my brother-in-law Aaron was helping his grandpa move a boat trailer. He saw a tiny little snake and picked it up, to toss it out of the way. But that snake bit him. It was a rattlesnake, and was too young to have a rattle yet, so Aaron didn't realize what kind of snake it was. His arm started swelling up. He ended up in the hospital and made a full recovery, thanks to anti-venom.
-                </p>
-                <p class="leading-loose mb-4">
-                    Elder Gary E. Stevenson told about an experience he had with his dad while hiking in the mountains. They were going up a steep trail lined with large rocks. Gary jumped from one large rock to another. I could definitely picture him doing that -- my kids loved to climb rocks when we'd go hiking when they were younger, too. They were like baby mountain goats.
-                </p>
-                <p class="leading-loose mb-4">Gary started to climb a large rock, when he dad quickly grabbed him by the belt and pulled him down. He said, "Don't climb on that rock. Let's just keep on the trail."</p>
-                <p class="leading-loose mb-4">When they got further on the trail, they could look down and see where they'd been. He said that they were stunned to see a big rattlesnake basking in the sun, on top of that very rock he had wanted to climb. 
-                </p>
-                <p class="leading-loose">On the way home, he asked his dad, "How did you know the snake was there?" And his dad told him that the Holy Ghost had told him. Elder Stevenson said, "I am forever grateful that my father listened to the still, small voice of the Holy Ghost, as it may have saved my life."
-                </p>
+                <div class="w-full flex flex-col sm:flex-row sm:items-start">
+                    <img
+                        class="sm:w-1/3 rounded my-4 mx-auto sm:mr-8"
+                        src="images\snake_sign.jpg" 
+                        alt="be aware of snakes sign"
+                    />
+                    <div class="sm:w-2/3">
+                        <p class="leading-loose mb-4">Sometimes, you have to be careful around snakes. Not all snakes are as friendly as Stripe.
+                            Once my brother-in-law Aaron was helping his grandpa move a boat trailer. He saw a tiny little snake and picked it up, to toss it out of the way. But that snake bit him. It was a rattlesnake, and was too young to have a rattle yet, so Aaron didn't realize what kind of snake it was. His arm started swelling up. He ended up in the hospital and made a full recovery, thanks to anti-venom.
+                        </p>
+                        <p class="leading-loose mb-4">
+                            <a class="font-bold underline hover:text-green-600" href="https://www.churchofjesuschrist.org/learn/gary-e-stevenson?lang=eng" target="_blank">Elder Gary E. Stevenson</a> told about an experience he had with his dad while hiking in the mountains.<a class="hover:text-green-600" href="#source-3"><sup>3</sup></a> They were going up a steep trail lined with large rocks. Gary jumped from one large rock to another. I could definitely picture him doing that -- my kids loved to climb rocks when we'd go hiking when they were younger, too. They were like baby mountain goats.
+                        </p>
+                        <p class="leading-loose mb-4">Gary started to climb a large rock, when he dad quickly grabbed him by the belt and pulled him down. He said, "Don't climb on that rock. Let's just keep on the trail."</p>
+                        <p class="leading-loose mb-4">When they got further on the trail, they could look down and see where they'd been. He said that they were stunned to see a big rattlesnake basking in the sun, on top of that very rock he had wanted to climb. 
+                        </p>
+                        <p class="leading-loose">On the way home, he asked his dad, "How did you know the snake was there?" And his dad told him that the Holy Ghost had told him. Elder Stevenson said, "I am forever grateful that my father listened to the still, small voice of the Holy Ghost, as it may have saved my life."
+                        </p>
+                    </div>
+                </div>
                 <p class="leading-loose">I'm grateful for the Holy Ghost's influence on my life, too.</p>
             </section>
             <section class="py-4">
@@ -127,32 +169,59 @@
                 <p class="leading-loose mb-4">
                     The children of Israel were wandering around the wilderness in a rocky valley. They started complaining against God and against their prophet Moses. To teach them a lesson, God sent fiery serpents among them. Many were bitten and died. The people repented, so God told Moses to make a serpent and put it on a pole, so that whoever looked at it would be healed and live. So Moses made one of brass, and many people did look and were healed. Some thought it was too easy of a thing to do, refused to look and died.
                 </p>
-                <p class="leading-loose mb-4">Nephi added another terrifying adjective to these fiery serpents: fiery FLYING serpents! Can you imagine what they might have been like?</p>
-                <p class="leading-loose mb-4">A couple of professors decided to find out what exactly those serpents might have been. And they figured out a very likely candidate. This particular snake:
+                <a href="https://www.churchofjesuschrist.org/media/image/moses-brass-serpent-e4d489d?lang=eng" target="_blank">
+                    <img
+                        class="rounded my-4 sm:w-1/3 mx-auto"
+                        src="images\moses_brass_serpent.jpeg" 
+                        alt="Moses raises a brass serpent on a pole"
+                    />
+                    <span class="sr-only">Image of Moses raising a brass serpent on a pole</span>
+                </a>
+                <p class="leading-loose mb-4"><a class="font-bold underline hover:text-green-600" href="https://bookofmormononline.com/1425/nephi-in-the-book-of-mormon" target="_blank">Nephi</a> added another terrifying adjective to these fiery serpents: fiery FLYING serpents!<a class="hover:text-green-600" href="#source-4"><sup>4</sup></a> Can you imagine what they might have been like?</p>
+                <p class="leading-loose mb-4">A couple of professors decided to find out what exactly those serpents might have been.<a class="hover:text-green-600" href="#source-5"><sup>5</sup></a> And they figured out a very likely candidate. This particular snake:
                 </p>
-                <ul class="list-disc list-inside bg-white leading-loose p-4 rounded mb-4">
-                    <li class="pb-2">Lives in the area the Israelites were in</li>
-                    <li class="pb-2">Likes rocky places</li>
-                    <li class="pb-2">Has a reddish color</li>
-                    <li class="pb-2">Has a bite that causes burning - <em>fiery</em> - pain</li>
-                    <li class="pb-2">Has slow-acting venom that causes internal bleeding, so it takes days to kill instead of some other types of venom that works within minutes or hours -- which fits the timeline. It would give bitten people time for Moses to make the serpent on the pole and for then look at it and be healed.</li>
-                    <li class="pb-2">And here's the flying part: It has a lightning-fast, jumping, leaping strike. It rubs its scales together, then leaps up toward its victim with great energy and speed, even leaving the ground, sometimes as high as a person's waist.</li>
-                </ul>
-                </p>
+                <div class="flex flex-col sm:flex-row">
+                    <ul class="list-disc list-inside bg-white leading-loose p-4 rounded mb-4 sm:w-2/3">
+                        <li class="pb-2">Lives in the area the Israelites were in</li>
+                        <li class="pb-2">Likes rocky places</li>
+                        <li class="pb-2">Has a reddish color</li>
+                        <li class="pb-2">Has a bite that causes burning - <em>fiery</em> - pain</li>
+                        <li class="pb-2">Has slow-acting venom that causes internal bleeding, so it takes days to kill instead of some other types of venom that works within minutes or hours -- which fits the timeline. It would give bitten people time for Moses to make the serpent on the pole and for then look at it and be healed.</li>
+                        <li class="pb-2">And here's the flying part: It has a lightning-fast, jumping, leaping strike. It rubs its scales together, then leaps up toward its victim with great energy and speed, even leaving the ground, sometimes as high as a person's waist.</li>
+                    </ul>
+                    <a class="sm:w-1/3" href="https://www.johnpratt.com/items/docs/lds/meridian/2000/serpent.html" target="_blank">
+                        <img
+                            class="rounded my-4 mx-auto"
+                            src="images\israeli_saw_scale_viper.jpg" 
+                            alt="Israeli Saw-Scale Viper"
+                        />
+                        <span class="sr-only">image of Israeli Saw-Scale Viper</span>
+                    </a>
+                </div>
+                
                 <p class="leading-loose">This unique snake is called the <strong>Israeli saw-scale viper</strong>, and is considered one of the world's most dangerous snakes.</p>
+                
             </section>
             <section class="py-4">
                 <h2 class="text-green-600 text-4xl pb-4 font-extrabold">Symbol of Christ</h2>
                 <p class="leading-loose mb-4">The serpent on the pole symbolizes Jesus Christ, lifted on the cross, who suffered, bled and died for us.</p>
+                <a href="https://www.churchofjesuschrist.org/media/image/pictures-of-crosses-jesus-d160c1f?lang=eng" target="_blank">
+                    <img
+                        class="rounded my-4 sm:w-1/4 mx-auto"
+                        src="images\jesus_on_cross.jpg" 
+                        alt="Christ on the cross"
+                    />
+                    <span class="sr-only">Image of Christ on the cross</span>
+                </a>
                 <p class="leading-loose mb-4">
                     It might seem kind of strange that some of the Israelites wouldn't do something so simple as look at the snake on the pole.
                 </p>
-                <p class="leading-loose mb-4">A man named David thought so. But then the Holy Ghost taught him about how he was similar to the Israelites. David was thinking about the sacrament prayer, and how it says we may have God's Spirit to be with us if we always remember Him. 
+                <p class="leading-loose mb-4">A man named David thought so.<a class="hover:text-green-600" href="#source-6"><sup>6</sup></a> But then the Holy Ghost taught him about how he was similar to the Israelites. David was thinking about the sacrament prayer, and how it says we may have God's Spirit to be with us if we always remember Him. 
                     And David realized that remembering Jesus was something that seemed so easy, yet David often would get caught up in his daily routines and forget to give much thought to the Savior. 
                     He made the connection that <strong>remembering Jesus Christ could be our modern-day equivalent of looking at the brass serpent on the pole</strong>.</p>
                 <p class="leading-loose mb-4">We have modern-day equivalents of snake venom too. And Jesus, our Redeemer, can purge out the poison we injest, sanctify and heal our souls, and lead us to eternal life.
                 </p>
-                <p class="leading-loose mb-4">Bishop W. Christopher Waddell taught:
+                <p class="leading-loose mb-4"><a class="font-bold underline hover:text-green-600" href="https://www.churchofjesuschrist.org/learn/w-christopher-waddell?lang=eng" target="_blank">Bishop W. Christopher Waddell</a> taught:
                 </p>
                 <blockquote cite="https://abn.churchofjesuschrist.org/study/general-conference/2017/10/turn-to-the-lord" class="leading-loose mb-4 pl-6">
                     "Dealing with the challenges of life is not about ignoring reality but rather <strong>where we choose to focus</strong> and the <strong>foundation</strong> upon which we choose to build.
@@ -160,39 +229,77 @@
                 <blockquote cite="https://abn.churchofjesuschrist.org/study/general-conference/2017/10/turn-to-the-lord" class="leading-loose mb-4 pl-6">
                     "There is a common element in [every] trial or challenge—hope and peace are always available through the atoning sacrifice of Jesus Christ.
                 </blockquote>
-                <blockquote cite="https://abn.churchofjesuschrist.org/study/general-conference/2017/10/turn-to-the-lord" class="leading-loose mb-4 pl-6">
-                    "He knows, in a way that no one else can understand, what it is that we need, individually, in order to move forward in the midst of change. Unlike friends and loved ones, the Savior not only sympathizes with us, but He can empathize perfectly because He has been where we are. In addition to paying the price and suffering for our sins, Jesus Christ also walked every path, dealt with every challenge, faced every hurt—physical, emotional, or spiritual—that we will ever encounter in mortality.
-                </blockquote>
-                <blockquote cite="https://abn.churchofjesuschrist.org/study/general-conference/2017/10/turn-to-the-lord" class="leading-loose mb-4 pl-6">
-                    "The Atonement of Jesus Christ provides the ultimate corrective and healing measures to every wounded body, damaged spirit, and broken heart."
-                </blockquote>
+                <div class="flex flex-col items-start justify-start sm:flex-row">
+                    <img
+                        class="rounded my-4 sm:w-1/3 mx-auto sm:mr-4"
+                        src="images\jesus_with_mary_and_martha.jpeg" 
+                        alt="Jesus comforts Mary and Martha"
+                    />
+                    <div>
+                        <blockquote cite="https://abn.churchofjesuschrist.org/study/general-conference/2017/10/turn-to-the-lord" class="leading-loose mb-4 pl-6">
+                            "He knows, in a way that no one else can understand, what it is that we need, individually, in order to move forward in the midst of change. Unlike friends and loved ones, the Savior not only sympathizes with us, but He can empathize perfectly because He has been where we are. In addition to paying the price and suffering for our sins, Jesus Christ also walked every path, dealt with every challenge, faced every hurt—physical, emotional, or spiritual—that we will ever encounter in mortality.
+                        </blockquote>
+                        <blockquote cite="https://abn.churchofjesuschrist.org/study/general-conference/2017/10/turn-to-the-lord" class="leading-loose mb-4 pl-6">
+                            "The Atonement of Jesus Christ provides the ultimate corrective and healing measures to every wounded body, damaged spirit, and broken heart."<a class="hover:text-green-600" href="#source-7"><sup>7</sup></a>
+                        </blockquote>
+                    </div>
+                </div>
             </section>
             <section class="py-4">
                 <h2 class="text-green-600 text-4xl pb-4 font-extrabold">Last Lessons</h2>
                 <p class="leading-loose mb-4">3 more lessons I learned from our snake:
                 </p>
-                <ol class="list-disc list-inside leading-loose mb-4">
-                    <li class="pb-2"><strong>Never give up.</strong> It's a good thing we have handweights on top of the lid of his tank. Every so often, I see him extending his body upwards, almost seeming to defy gravity, to push his little head on the top screen, hoping to make the lid move and find a way out. It never works, but he keeps trying. As Nephi said, we should  "press forward with a steadfastness in Christ, having a perfect brightness of hope."</li>
-                    <li class="pb-2"><strong>Sometimes people might need help, but not be able or willing to ask for it.</strong> This morning, I just happened to walk by his tank, and noticed that he didn't have any water. He had no way of telling me, "Hey! I need water over here!" If you want a quiet pet, get a snake! We should be proactive in looking for service opportunities, and pray that we can follow the Spirit to help others.</li>
-                    <li class="pb-2"><strong>You can shed your skin and have a fresh start.</strong> So, our snake spends a lot of time being still, when he's not trying to get out or when no one is holding him. But a couple of days ago, I saw him being unusually busy, going around in circles, around his half-circle bark house. I wasn't sure why he was so active, but then I looked closer and saw that the outer layer of his skin was starting to come off, and by rubbing against the bark, he could get more and more of it to flake off his body. Now he's like a fresh, new snake. 
-                        <br /><br />
-                        It might take some effort, but we can shed our metaphorical skin --  through things like a having a different attitude, repenting, partaking the sacrament, or creating new habits -- and have a fresh start.
-                        <br /><br />
+                <ol class="list-decimal list-inside leading-loose mb-4">
+                    <li class="pb-2 mb-4"><strong>Never give up.</strong> It's a good thing we have handweights on top of the lid of his tank. 
+                        Every so often, I see him extending his body upwards, almost seeming to defy gravity, to push his little head on the top screen, 
+                        hoping to make the lid move and find a way out. It never works, but he keeps trying. 
+                        As Nephi said, we should "press forward with a steadfastness in Christ, having a perfect brightness of hope."<a class="hover:text-green-600" href="#source-8"><sup>8</sup></a>
+                        <img
+                            class="rounded my-4 sm:w-1/3 mx-auto"
+                            src="images\stripe_tries_to_escape.jpg" 
+                            alt="Stripe tries to escape"
+                        />
+                    </li>
+                    
+                    <li class="pb-2 mb-4"><strong>Sometimes people might need help, but not be able or willing to ask for it.</strong> This morning, I just happened to walk by his tank, and noticed that he didn't have any water. He had no way of telling me, "Hey! I need water over here!" If you want a quiet pet, get a snake! We should be proactive in looking for service opportunities, and pray that we can follow the Spirit to help others.</li>
+                    <li class="pb-2 mb-4"><strong>You can shed your skin and have a fresh start.</strong> 
+                        <div class="flex flex-col sm:flex-row"> 
+                            <span>
+                                So, our snake spends a lot of time being still, when he's not trying to get out or when no one is holding him. 
+                                But a couple of days ago, I saw him being unusually busy, going around in circles, around his half-circle bark house. 
+                                I wasn't sure why he was so active, but then I looked closer and saw that the outer layer of his skin was starting to come off, 
+                                and by rubbing against the bark, he could get more and more of it to flake off his body. Now he's like a fresh, new snake. 
+                                <br /><br />
+                                It might take some effort, but we can shed our metaphorical skin --  through things like a having a different attitude, repenting, partaking the sacrament, or creating new habits -- and have a fresh start.
+                            </span>
+                            <img
+                                class="rounded my-4 sm:w-1/3 mx-auto sm:ml-8"
+                                src="images\stripe_with_bark_house.jpg" 
+                                alt="Stripe with his bark house"
+                            />
+                        </div>     
+                       
                         The Apostle Paul had a few things to say about a new start:
                             <ul class="p-4 list-disc list-inside ml-6 bg-white rounded mt-4 mb-4">
-                                <li>In Romans: "Therefore we are buried with him by baptism into death: that like as Christ was raised up from the dead by the glory of the Father, even so we also should walk in newness of life." </li>
-                                <li>In 2 Corinthians: "Therefore if any man be in Christ, he is a new creature: old things are passed away; behold, all things are become new."
+                                <li>In Romans: "Therefore we are buried with him by baptism into death: that like as Christ was raised up from the dead by the glory of the Father, even so we also should walk in newness of life."<a class="hover:text-green-600" href="#source-9"><sup>9</sup></a> </li>
+                                <li>In 2 Corinthians: "Therefore if any man be in Christ, he is a new creature: old things are passed away; behold, all things are become new."<a class="hover:text-green-600" href="#source-10"><sup>10</sup></a>
                                 </li>
                             </ul>
-                            And another apostle, Elder Uchtdorf, said:
+                            And another apostle, <a class="font-bold underline hover:text-green-600" href="https://www.churchofjesuschrist.org/learn/dieter-f-uchtdorf?lang=eng" target="_blank">Elder Dieter F. Uchtdorf</a>, said:
                             <blockquote cite="https://abn.churchofjesuschrist.org/study/liahona/2014/01/the-best-time-to-plant-a-tree" class="leading-loose mb-4 pl-6">
                                 "With every new day, a new dawn comes—not only for the earth but also for us. And with a new day comes a new start—a chance to begin again. 
                                 Now is the best time to start becoming the person we eventually want to be."
+                                <a class="hover:text-green-600" href="#source-11"><sup>10</sup></a>
                             </blockquote>
+                            <img
+                                class="rounded my-4 sm:w-1/3 mx-auto"
+                                src="images\dawn.jpg" 
+                                alt="Dawn: A New Start"
+                            />
                     </li>
                 </ol>
             </section>
-            <section class="py-4">
+            <section id="quiz-section" class="py-4">
                 <h2 class="text-green-600 text-4xl pb-4 font-extrabold">Quiz Time</h2>
                 <p class="leading-relaxed pb-4 font-bold text-lg">Give yourself 1 point each for:</p>
                 <ol class="list-disc list-inside leading-loose mb-4 pl-6">
@@ -242,8 +349,44 @@
                     <li>You can have a fresh start</li>
                     <li>Remember to look to Jesus, our Savior</li>
                 </ol>
+                <p class="leading-relaxed mb-4">How'd you do?</p>
+                <p class="leading-relaxed mb-4">I'm so grateful for Jesus and his atonement, and to know that through Him, we can overcome difficulties in this life and have a bright hope to live with Him, our Heavenly Parents, and our families again.</p>
+                <p class="mb-12 leading-relaxed"><span>💗</span></p>
+                <img
+                    class="rounded my-4 sm:w-1/2 mx-auto"
+                    src="images\nuffer_family.jpg" 
+                    alt="Nuffer Family"
+                />
             </section>
         </main>
+        <section class="border-t container mx-auto pt-6 px-4">
+            <h2 class="text-green-600 text-xl pb-4 font-extrabold">Sources</h2>
+            <ol class="leading-relaxed text-sm list-decimal list-inside pb-12 overflow-y-scroll">
+                <li id="source-1" class="mb-4">"Peace, Be Still", Thomas S. Monson, Oct. 2002, <a class="font-bold underline hover:text-green-600" href="https://abn.churchofjesuschrist.org/study/general-conference/2002/10/peace-be-still" target="_blank">https://abn.churchofjesuschrist.org/study/general-conference/2002/10/peace-be-still</a>
+                </li>
+                <li id="source-2" class="mb-4"><a class="font-bold underline hover:text-green-600" href="https://abn.churchofjesuschrist.org/study/scriptures/bofm/alma/38" target="_blank">Alma 38:4-5</a>
+                </li>
+                <li id="source-3" class="mb-4">"How Does the Holy Ghost Help You?", Elder Gary E. Stevenson, Apr 2017, <a class="font-bold underline hover:text-green-600" href="https://abn.churchofjesuschrist.org/study/general-conference/2017/04/how-does-the-holy-ghost-help-you" target="_blank">https://abn.churchofjesuschrist.org/study/general-conference/2017/04/how-does-the-holy-ghost-help-you</a></li>
+                <li id="source-4" class="mb-4"><a class="font-bold underline hover:text-green-600" href="https://abn.churchofjesuschrist.org/study/scriptures/bofm/1-ne/17.41?lang=eng#40" target="_blank">1 Nephi 17:41</a></li>
+                <li id="source-5" class="mb-4">"What Fiery Flying Serpent Symbolized Christ?", Ronald P. Millett and John P. Pratt, <a class="font-bold underline hover:text-green-600" href="https://www.johnpratt.com/items/docs/lds/meridian/2000/serpent.html" target="_blank">https://www.johnpratt.com/items/docs/lds/meridian/2000/serpent.html</a>
+                </li>
+                <li id="source-6" class="mb-4">"Modern-Day Fiery Serpents", David R. Smith, <em>Ensign</em>, Dec 2010, <a class="font-bold underline hover:text-green-600" href="https://abn.churchofjesuschrist.org/study/ensign/2010/12/modern-day-fiery-serpents" target="_blank">https://abn.churchofjesuschrist.org/study/ensign/2010/12/modern-day-fiery-serpents</a></li>
+                <li id="source-7" class="mb-4">"Turn to the Lord", Bishop W. Christopher Waddell, Oct 2017, <a class="font-bold underline hover:text-green-600" href="https://abn.churchofjesuschrist.org/study/general-conference/2017/10/turn-to-the-lord" target="_blank">https://abn.churchofjesuschrist.org/study/general-conference/2017/10/turn-to-the-lord</a>
+                </li>
+                <li id="source-8" class="mb-4"><a class="font-bold underline hover:text-green-600" href="https://abn.churchofjesuschrist.org/study/scriptures/bofm/2-ne/31.20?lang=eng" target="_blank">2 Nephi 31:20</a></li>
+                <li id="source-9" class="mb-4"><a class="font-bold underline hover:text-green-600" href="https://abn.churchofjesuschrist.org/study/scriptures/nt/rom/6.4?lang=eng" target="_blank">Romans 6:4</a></li>
+                <li id="source-10" class="mb-4"><a class="font-bold underline hover:text-green-600" href="https://abn.churchofjesuschrist.org/study/scriptures/nt/2-cor/5.17?lang=eng" target="_blank">Corinthians 5:17</a></li>
+                <li id="source-11" class="mb-4">"The Best Time to Plant a Tree", <em>Ensign</em>, Jan 2014, <a class="font-bold underline hover:text-green-600" href="https://abn.churchofjesuschrist.org/study/liahona/2014/01/the-best-time-to-plant-a-tree?lang=eng" target="_blank">https://abn.churchofjesuschrist.org/study/liahona/2014/01/the-best-time-to-plant-a-tree?lang=eng</a>
+                </li>
+            </ol>
+        </section>
+        <figure class="my-4 px-4">
+            <img class="rounded sm:w-1/5 mx-auto" src="images\baby_stripe.jpg" alt="Baby Stripe">
+            <figcaption class="text-center py-0.5">Baby Stripe</figcaption>
+          </figure>
+        <footer class="bg-green-600 py-10 text-center text-white font-bold">
+            <p>Copyright <span id="current-year">2021</span> Heather Nuffer</p>
+        </footer>
         <script type="text/javascript">
             const buttons = document.querySelectorAll('.question-button')
             buttons.forEach((button)=> 
@@ -254,6 +397,8 @@
                         document.getElementById(answerId).classList.toggle('scale-100')
                     })   
                 })
+            const currentYearSpan = document.getElementById('current-year')
+            currentYearSpan.textContent = new Date().getFullYear()
         </script>
         </div>
     </body>
